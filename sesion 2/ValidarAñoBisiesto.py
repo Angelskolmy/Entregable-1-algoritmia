@@ -28,7 +28,7 @@ while BucleAunal == "SI":
     Calcule2= AñoXcotejar % 400 
     Calcule3= AñoXcotejar % 100 
 
-    if Calcule1 == 0 or Calcule2 == 0 and Calcule3 >0: 
+    if Calcule2==0 or (Calcule1 == 0 and Calcule3 !=0): 
         print(f"año {AñoXcotejar} es biciesto") 
     else: 
         print(f"Año {AñoXcotejar} no es biciesto")
